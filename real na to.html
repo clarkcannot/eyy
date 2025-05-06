@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Card with Side Photos</title>
+  <style>
+    /* Existing Styles */
+    #birthdayCard {
+      background: pink;
+      color: #111111;
+      width: 25%;
+      min-width: 300px;
+      border: 8px solid #E75480;
+      border-left: 10px solid #AA336A;
+      border-right: 10px solid #AA336A;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: row; /* Arrange content horizontally */
+      justify-content: space-between; /* Space between left, content, and right */
+      align-items: center; /* Vertically align items */
+      gap: 15px; /* Add spacing between images and content */
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full height of viewport */
+      margin: 0;
+      background-color: white;
+    }
+
+    .TextColor {
+      color: #CC0000;
+    }
+
+    .signature {
+      text-align: right;
+      width: 100%;
+    }
+
+    strong {
+      font-size: large;
+      color: #CC0000;
+    }
+
+    /* Styling for Images Inside the Card */
+    .side-img {
+      width: 200px; /* Adjust as needed */
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .content {
+      flex-grow: 1; /* Allow content to expand while keeping images fixed */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="birthdayCard">
+    <!-- Left Photo -->
+    <img src="f8f4a296-0289-4989-b9c0-42f1bfd2f201.jpg" alt="Left Photo" class="side-img">
+
+    <!-- Card Content -->
+    <div class="content">
+       <h1>Happy 23rd Birthday, <span class="TextColor">Cylysce!!!</span></h1>
+  <p style="text-align: justify;">Inorder ko 'tong matcha set the day before tayo mag-zus last week, <strong>HAHAHAHA</strong>.
+  Sorry if walang sifter at hindi siya pink—wala kasi akong mahanap T^T.
+  Tsaka wala palang spout yung mismong bowl, kaya <strong>pagtyagaan mo muna</strong> for now, <strong>HAHAHAHA</strong>.
+  I hope this helps you enjoy your matcha even more! Sana <strong>lagi kang may gatas :>></strong></p>
+  <p style="text-align: justify;">Anyway, <strong>I’m so grateful</strong> for your existence.  You always manage to <strong>light up any room</strong> you walk into.
+  Your laugh is so <strong>distinct and contagious</strong>, and that <strong>smile</strong>—ang ganda.
+  And ang <strong>pretty</strong> mo pa rin kahit sa mga araw na nagmamadali ka kaya 'di ka nakakapag grwm.
+  Your wavy hair <strong>suits you perfectly</strong>, kahit na sinasabi mong hindi.
+  Sobrang sipag mo rin, and I truly admire your sense of <strong>responsibility</strong> and <strong>conviction</strong>.
+  <strong>You really deserve all the good things in this world</strong>.</p>
+  <p style="text-align: justify;">Heartbreaks and disappointments may have come your way, but those experiences helped shape
+  the strong, wonderful person that you are today. I hope you never forget that.</p>
+  <p><strong>Happy Birthday ulit!</strong></p>
+  <p class="signature">–Yours, Kent</p>
+
+    </div>
+
+    <!-- Right Photo -->
+    <img src="19e3f028-c8c5-4b71-9478-d940f735c17d.jpg" alt="Right Photo" class="side-img">
+  </div>
+</body>
+</html>
